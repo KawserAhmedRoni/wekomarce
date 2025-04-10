@@ -4,6 +4,7 @@ export default function About() {
 			<div className="home-page-area">
 				<div className="container">
 					<h1>I am About Page</h1>
+					<h1>Demo</h1>
 				</div>
 			</div>
 		</main>
