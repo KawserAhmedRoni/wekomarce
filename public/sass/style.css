@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --primary-color: #101828;
   --accent-color: #00ae7a;
@@ -128,4 +129,34 @@
 
 /*=============================================
 =            Banner Section           =
-=============================================*//*# sourceMappingURL=style.css.map */
+=============================================*/
+/* Regular bullets */
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #f50505;
+  opacity: 1;
+  margin: 0 6px;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+}
+
+/* Active bullet */
+.swiper-pagination-bullet-active {
+  background: #bef105;
+  transform: scale(1.4);
+}
+
+/* Dynamic bullets — main (the big one) */
+.swiper-pagination-bullet-main {
+  background-color: #f00c7e;
+  transform: scale(1.6);
+}
+
+/* Optional: smaller bullets near main one */
+.swiper-pagination-bullet-prev,
+.swiper-pagination-bullet-next {
+  background-color: #07f81b;
+  opacity: 0.6;
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
