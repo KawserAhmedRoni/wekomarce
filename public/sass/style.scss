@@ -127,3 +127,14 @@ $bg-dark: #1e1e1e;
 /*=============================================
 =            Banner Section           =
 =============================================*/
+.wearesupport > p,
+.wearesupport > .icons {
+  color: var(--primary-color);
+  line-height: 24px;
+}
+.wearesupport {
+  padding: 20px 2px;
+  border: 1px solid #e4e6ec;
+  border-radius: 4px;
+  max-width: 330px;
+}
