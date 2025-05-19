@@ -127,7 +127,7 @@
 }
 
 /*=============================================
-=            Banner Section           =
+=            Quality Ensure Section           =
 =============================================*/
 .wearesupport > p,
 .wearesupport > .icons {
@@ -140,4 +140,31 @@
   border: 1px solid #e4e6ec;
   border-radius: 4px;
   max-width: 330px;
+}
+
+/*=============================================
+=           Shop Category Section           =
+=============================================*/
+.shop-category > h2 {
+  color: var(--primary-color);
+}
+
+.category-image {
+  position: relative;
+  z-index: 2;
+}
+
+.category-image > .button {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  padding: 8px 45px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 222;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  min-width: 140px;
+  border-radius: 2px;
 }/*# sourceMappingURL=style.css.map */
